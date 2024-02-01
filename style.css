@@ -1,0 +1,92 @@
+
+    input, button {
+      margin: 10px;
+    }
+
+*{
+margin:2px;
+padding: 1px;
+box-sizing: border-box;
+font-family: sans-serif;
+
+
+}
+body{
+    width:100%;
+    height:100vh;
+    display:inline-flex;
+    justify-content:center;
+    align-items: center;
+   background-color: rgb(13, 12, 12);
+  
+}
+
+.calc{
+    box-shadow: -3px 0px 2rem rgb(1, 5, 255);
+    border: 1px solid rgb(0, 161, 40);
+    
+   
+}
+
+input{
+width :390px;
+padding:10px;
+margin:10px;
+border-radius: 50px;
+box-shadow:solid;
+font-size: 40px;
+text-align: center;
+cursor: pointer;
+color:rgb(0, 0, 0)
+
+
+
+}
+
+input:placeholder{
+    color:rgb(228, 15, 15);
+
+}
+button{
+    border:solid;
+    width:78px;
+    height:60px;
+    border-radius: 50px;
+    background:transparent;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    box-shadow: -5px 0px 0.7rem rgb(255, 170, 1);
+    cursor: pointer;
+
+}
+
+
+
+.sk{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 162, 255);
+    
+  
+
+}
+
+.sathish{
+
+    color: rgb(233, 220, 220);
+    font-size: 1rem;
+    text-align: center;
+    text-shadow: -3px 0px 1rem rgb(1, 225, 255);
+    animation-duration:1ms
+}
+.sathish:after {
+    color: #07ec13;
+    animation: changename 10s infinite linear;
+    content: '';
+  }
+  
+  @keyframes changename{
+    0% { content: "Additon"}
+    25% { content: "Subraction"}
+    50% { content: "Multification"}
+    75% { content: "Divition"}
+  }
